@@ -1,4 +1,4 @@
-const EyeOff = ({ classNames, size = 24 }: { classNames: string; size: number }) => {
+const EyeOff = ({ classNames, size = 24 }: { classNames?: string; size?: number }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
